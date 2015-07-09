@@ -819,7 +819,7 @@ a.about-close{display:inline-block; width:24px;}
     filter:alpha(opacity=100); 
 }
 .portfolio-container .thumbnails .portfolio-col:hover .thumbnail{
-	width:140%; height:140%;
+	width:113%; height:142%;
     border:none;
     margin-top:-20%;
     margin-left:-20%;
