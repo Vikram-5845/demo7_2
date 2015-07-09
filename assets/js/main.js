@@ -117,26 +117,7 @@ $(function ($) {
 })();
 //  JSHint wrapper $(function ($)  : ends
 
-$(document).ready(function(){
 	
-	$("#fb_btn").on('click',function(){
-		 var url = "https://www.facebook.com/pages/Miti-Design-Lab/311084552243712?ref=hl";  
-        $(location).attr('href',url);
-	});
-	
-	$("#twit_btn").on('click',function(){
-		var url = "https://twitter.com/miti_design_lab";  
-        $(location).attr('href',url);
-	});
-	
-	$("#linkdln_btn").on('click',function(){
-        var url ="https://www.linkedin.com/profile/view?id=1858938&trk=hp-identity-name";
-        $(location).attr('href',url);
-	});
-	
-	
-});
-		
 
 
 
