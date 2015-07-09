@@ -1,0 +1,140 @@
+.ms-static-title{
+	padding-left: 80px;
+	padding-right: 80px;
+} 
+.ms-static-title a{
+            cursor: url("../images/plus.png") 40 40, crosshair;
+            -webkit-transition: all .4s ease-in-out;
+               -moz-transition: all .4s ease-in-out;
+                -ms-transition: all .4s ease-in-out;
+                 -o-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+}
+.ms-static-title h1 {
+    font-family: "Raleway",Arial,Helvetica,sans-serif;
+    font-size: 64px;
+    font-weight: 300;
+    letter-spacing: 8px;
+    line-height: 76px;
+    text-transform: uppercase;
+}
+.ms-static-title h3 {
+	margin-top: 10px;
+}
+.ms-static-title h3 > span {
+    font-family: "Montserrat",Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 8px;
+    line-height: 28px;
+    padding: 7px;
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+
+/*Panels - LEFT Side*/
+.left1{
+	background-image:url(../images/home/001.jpg) !important;
+    background-size: cover;
+    background-position: center bottom;
+}
+.left2{
+    background-image:url(../images/home/002.jpg) !important;
+    background-size: cover;
+}
+.left3{
+    background-image:url(../images/home/003.jpg) !important;
+    background-size: cover;
+}
+.left4{
+    background-image:url(../images/home/004.jpg) !important;
+    background-size: cover;
+}
+.left5{
+    background-image:url(../images/home/009.jpg) !important;
+    background-size: cover;
+}
+.left6{
+    background-image:url(../images/home/011.jpg) !important;
+    background-size: cover;
+}
+/*Panels - RIGHT Side*/
+.right1{
+    background-image:url(../images/home/005.jpg) !important;
+    background-size: cover;
+    background-position: center bottom;
+}
+.right2{
+	background-image:url(../images/home/006.jpg) !important;
+    background-size: cover;
+}
+.right3{
+	background-image:url(../images/home/007.jpg) !important;
+    background-size: cover;
+}
+.right4{
+    background-image:url(../images/home/008.jpg) !important;
+    background-size: cover;
+}
+.right5{
+    background-image:url(../images/home/010.jpg) !important;
+    background-size: cover;
+}
+.right6{
+    background-image:url(../images/home/012.jpg) !important;
+    background-size: cover;
+}
+
+/*Custom */
+.slider-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+/*    background-color:rgba(0,0,0,0.50);*/
+}
+
+/*.slider-content:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}*/
+
+.svg-outer {
+    height: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -8%;
+}
+
+.slider-content .svg-text {
+    color: #fff;
+    font-size: 1.3em;
+    position:absolute;
+    top:18%;
+    white-space:nowrap;
+}
+
+@media screen and (min-height: 800px) {
+    .slider-content .svg-text {
+            top: 16%;
+    }
+} 
+.slider-content .svg-text span {
+    font-style: italic;
+}
+.slider-content .svg-left {
+    padding-right:9px;
+    right:100%;
+}
+.slider-content .svg-right {
+    padding-left:9px;
+    left:100%;
+}
+
+.svg-outer svg {
+    display: block;
+    margin: 0 auto;
+    height:inherit;
+}

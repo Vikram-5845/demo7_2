@@ -1,0 +1,141 @@
+#content{
+}
+.green-text-design{
+	color: #8ea956;
+  	font-style: italic;
+  	font-size: 12px;	
+}
+
+.text-design{
+	font-size:15px !important;
+	line-height:1.6 !important;
+	text-align:justify !important;
+  	direction: ltr;
+}
+
+.text-design-l2{
+	font-size: 14px !important;
+  	line-height: 1.4 !important;
+  	color: #333;
+  	text-align:justify !important;
+  	direction: ltr;
+	
+}
+
+.row-new{
+height: 73px; 	
+}
+
+
+
+.footnote{
+  font-size:12px;
+  font-style:italic;
+}
+
+.container{
+        width: 100%;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+}
+.valign{
+    position: relative;
+    top: 30%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.valign-bottom{vertical-align:bottom;}
+
+.absolute-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.sticky-foot{
+    max-height: 62px;
+}
+.fullwidth-forced{
+    width: 100% !important;
+    margin-left: 0 !important;
+}
+
+.bg-white-overlay{background-color: white;}
+.bg-grey-overlay{background-color: #E7E7E7;}
+
+.nav-menu-bottom-content{ margin-top: 59px;}
+.main-nav h4{font-weight: 900;	color: #333333;}
+.mast-wrap{
+    opacity: 0;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 02 - HEADER & NAVIGATION */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.main-nav  {
+    width: 100%;
+    height: 100%;
+     position: fixed;
+     z-index: 900;
+    -moz-box-shadow: 10px 1px 4px #000000;
+    -webkit-box-shadow: 10px 1px 4px #000000;
+    box-shadow: 10px 1px 4px #000000;
+}
+
+/*TOP HEADER*/
+.top-header{
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    min-height: 60px;
+}
+.top-header-left{ padding: 25px 0 23px 0;}
+.top-header-right{ padding: 24px 40px 21px 0;}
+.miti-logo{width:200px; margin-left:20px;position: relative;}
+.miti-logo>.top-logo{
+    position:absolute;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 03 - Vikram's special junk */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.punctuate{
+    width: 100%;
+    margin-left: 0%;
+	margin-top:2%;
+	text-align:1eft;
+}
+
+hr.dotted{
+    width: 100%;
+    border-top: dotted 2px white;
+}
+
+span > em{
+    color: #F2AF27;
+}
+
+
+h4>strong{
+text-transform: uppercase;
+  font-weight: 500 !important;	
+
+}
+
+h4{
+margin-top:0px !important;
+  margin-bottom:0px !important;
+}
+
+.about_miti_text_span_white{
+	font-size: 14px !important;
+ 	line-height: 1.3 !important;
+ 	color: white;
+}
+
+
+
+
+
+

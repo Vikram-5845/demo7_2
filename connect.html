@@ -1,0 +1,798 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Connect | Miti Design Lab</title>
+     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Lorem Ipsum Sid Amit" />
+    <meta name="keywords" content="lorem, ipsum, sid, amit" />
+    <meta name="author" content="Recherche Solutions, http://www.recherche.co.in" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/animate.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="assets/css/jquery.multiscroll.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/mdl.css" rel="stylesheet" />
+    <link href="assets/css/hiding-nav.css" rel="stylesheet" />
+    <link href="assets/css/mdl-updated.css" rel="stylesheet" />
+    <link href="assets/css/home-07.css" rel="stylesheet" />
+    <link href="assets/css/pace.preloader.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="assets/css/set1.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/dropdown-component.css" />
+    <script src="assets/js/modernizr-2.7.2.js"></script>
+    <style>
+        .wrapper-demo {
+            *zoom: 1;
+            font-weight: 400;
+        }
+
+        .wrapper-demo:after {
+            clear: both;
+            content: "";
+            display: table;
+        }
+        /* DEMO 5 */
+
+        .wrapper-dropdown-5 {
+            /* Size & position */
+            position: relative;
+            padding: 12px 15px;
+            /* Styles */
+            font-size: 1.9em;
+			font-weight:300;
+            outline: none;
+            background: #F2AF27;
+            cursor: pointer;
+            -webkit-transition: all 0.3s ease-out;
+            -moz-transition: all 0.3s ease-out;
+            -ms-transition: all 0.3s ease-out;
+            -o-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+        }
+
+        .wrapper-dropdown-5 i{
+            float: right;
+            color: #FFF;
+            font-size: 1em;
+            /*margin-top: 7px;*/
+        }
+
+        .wrapper-dropdown-5 .dropdown {
+            /* Size & position */
+             position: absolute;
+             top: 73%;
+            left: 0;
+            right: 0;
+
+            /* Styles */
+            background: rgba(64, 64, 64, 0.9);
+            border: 1px solid rgba(0,0,0,0.2);
+            border-top: none;
+            border-bottom: none;
+            list-style: none;
+            -webkit-transition: all 0.3s ease-out;
+            -moz-transition: all 0.3s ease-out;
+            -ms-transition: all 0.3s ease-out;
+            -o-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+
+            /* Hiding */
+            max-height: 0;
+            overflow: hidden;
+        }
+
+        .wrapper-dropdown-5 .dropdown li {
+            padding: 0 10px ;
+            transition:.2s ease-in all;
+        }
+
+        .wrapper-dropdown-5 .dropdown li:hover {
+            background: rgba(64,64,64,1);
+        }
+
+        .wrapper-dropdown-5 .dropdown li a {
+			display: block;
+			text-decoration: none;
+			color: white;
+			transition: all 0.3s ease-out;
+			padding: 8px 0;
+			font-weight:300;
+			font-size: 1.3em;
+			text-transform: uppercase;
+        }
+
+        .wrapper-dropdown-5 .dropdown li:last-of-type a {
+            border: none;
+        }
+
+        .wrapper-dropdown-5 .dropdown li i {
+            margin-right: 5px;
+            color: inherit;
+            vertical-align: middle;
+        }
+        .dropdown.connect-drop>li:first-child{
+            margin-top:0px;
+        }
+        .dropdown.connect-drop>li:last-child{
+            margin-bottom:0px;
+        }
+        /* Active state */
+
+        .wrapper-dropdown-5.active {
+            background: #F2AF27;
+            box-shadow: none;
+            border-bottom: none;
+            color: #333;
+        }
+
+        .wrapper-dropdown-5.active:after {
+            border-color: white transparent;
+        }
+
+        .wrapper-dropdown-5.active .dropdown {
+            border-bottom: 1px solid rgba(0,0,0,0.2);
+            max-height: 400px;
+            z-index: 100;
+        }
+
+        /* No CSS3 support: none */
+    </style>
+     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.min.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<!--<body class="fixed">-->
+<body>	
+<section class="mast-wrap">
+  <div id="wrap">
+<header class="main-nav visible-lg">
+    <div class="row">
+        <article class="col-md-6 halfheight bg-white-overlay text-center">
+          <div class="valign">
+                <div class="col-md-6 text-right">
+                    <h4>WORK</h4>
+                    <ul class="list-unstyled mrg-20 home-submenu">
+                        <li class="color-orange menu-title">DIMENSIONS</li>
+                        <li><a href="communication.html">Communication Design</a></li>
+                        <li><a href="education.html">Education Design</a></li>
+                        <li><a href="movement.html">Movement Design</a></li>
+                        <li><a href="social.html">Social Design</a></li>
+                        <li><a href="business.html">Business Design</a></li>
+                        <li><a href="thought.html">Thought Design</a></li>
+                    </ul>
+                    <ul class="list-unstyled mrg-20 home-submenu">
+                        <li class="color-orange menu-title">INITIATIVES</li>
+                        <li><a href="initiatives.html">Coming Soon</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 text-left">
+                    <h4 class="color-transperant">_</h4>
+                    <ul class="list-unstyled mrg-20 home-submenu">
+                        <li class="color-orange menu-title">EXPLORATIONS</li>
+                        <li><a href="#">Project Me</a></li>
+                        <li><a href="#">Design Tools</a></li>
+                        <li><a href="#">Utility 9</a></li>
+                    </ul>
+                    <ul class="list-unstyled mrg-20 home-submenu">
+                        <li class="color-orange menu-title">COLLABORATIONS</li>
+                        <li><a href="collaborations.html">Coming Soon</a></li>
+                    </ul>
+                </div>
+          </div>
+        </article>
+         <article class="col-md-6 halfheight bg-grey-overlay text-center">
+          <div class="valign">
+            <div class="col-md-6 text-right">
+                <h4>ABOUT</h4>
+                <ul class="list-unstyled mrg-20 home-submenu">
+                    <li class="color-orange menu-title">VISION</li>
+                    <li><a href="about.html">Intellectual Form</a></li>
+                    <li><a href="about.html">Small is Beautiful</a></li>
+                    <li><a href="about.html">Design Is</a></li>
+                </ul>                            	
+            </div>
+            <div class="col-md-6 text-left">
+                <h4 class="color-transperant">_</h4>
+                <ul class="list-unstyled mrg-20 home-submenu">
+                        <li class="color-orange menu-title">PRINCIPLES</li>
+                    <li><a href="about.html">Punctuate</a></li>
+                    <li><a href="about.html">Process vs Outcome</a></li>
+                    <li><a href="about.html">Theory & Practice</a></li>
+                </ul>
+                <ul class="list-unstyled mrg-20 home-submenu">
+                        <li class="color-orange menu-title">MITI</li>
+                    <li><a href="about.html">Journey</a></li>
+                    <li><a href="about.html">Inspiration</a></li>
+                    <li><a href="about.html">Mentors</a></li>
+                </ul>
+            </div>
+          </div>
+        </article>
+      </div>
+    <div class="row">
+        <article class="col-md-6 halfheight bg-grey-overlay text-center">
+          <div class="valign">
+                <div class="col-md-6 text-right">
+                    <h4>CONNECT</h4>
+                    <ul class="list-unstyled mrg-20 home-submenu">
+                        <li><a href="connect.html">Send Us A Message</a></li>
+                        <li><a href="connect.html">Do Business With Us</a></li>
+                        <li><a href="connect.html">Join The Team</a></li>
+                        <li><a href="connect.html">Collaborate</a></li>
+                        <li><a href="connect.html">Stay Informed</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 text-left valign-bottom">
+                    <div class="nav-menu-bottom-content">
+                    Follow<br />
+                    <ul class="social-icons list-unstyled">                        
+                        <li style="width:19px; height:19px;"><a  id="fb_btn" href="#">
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         viewBox="0 0 25.822 43.158" style="enable-background:new 0 0 25.822 43.158;" xml:space="preserve">
+                            <g id="facebook">
+                                        <g><path style="fill-rule:evenodd;clip-rule:evenodd;" d="M24.822,0.007l-6.56,0.003c0,0-0.133-0.01-0.372-0.01
+                            C16.544,0,9.737,0.374,7.885,7.673c-0.029,0.081-0.652,1.908-0.662,6.157H1c-0.552,0-1,0.448-1,1v5.734c0,0.552,0.448,1,1,1h6.806
+                            v20.594c0,0.552,0.448,1,1,1h7.793c0.552,0,1-0.448,1-1V21.585h6.828c0.552,0,1-0.448,1-1v-5.755c0-0.552-0.448-1-1-1h-6.814
+                            v-2.461c0-1.639,1.04-3.39,3.96-3.39h3.249c0.552,0,1-0.448,1-1V1.007C25.822,0.455,25.375,0.007,24.822,0.007z M23.822,5.979
+                            h-2.249c-4.117,0-5.96,2.707-5.96,5.39v3.461c0,0.552,0.448,1,1,1h6.814v3.755h-6.828c-0.552,0-1,0.448-1,1v20.573H9.806V20.564
+                            c0-0.552-0.448-1-1-1H2v-3.734h6.231c0.269,0,0.526-0.108,0.714-0.3c0.188-0.192,0.291-0.451,0.286-0.72
+                            c-0.089-4.548,0.536-6.463,0.566-6.56C11.272,2.451,16.365,2,17.89,2c0.139,0,0.222,0.004,0.303,0.007h5.629V5.979z"/></g></g>
+                            <g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+                            </svg>
+                        </a></li>
+                        <li style="width:28px; height:28px; padding-top:6px;"><a id="twit_btn" href="#">
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 						viewBox="0 0 44.127 36.081" style="enable-background:new 0 0 44.127 36.081;" xml:space="preserve">
+							<g id="twitter"><g>
+                            <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M43.692,4.209c-0.354-0.242-0.821-0.234-1.164,0.023
+                            c-0.237,0.177-0.59,0.334-1.002,0.471c1.357-1.683,1.377-2.808,1.357-3.085c-0.027-0.36-0.246-0.679-0.573-0.832
+                            c-0.328-0.154-0.712-0.12-1.006,0.092c-1.85,1.324-3.701,1.612-4.781,1.65C34.765,0.895,32.492,0,30.076,0
+                            c-5.227,0-9.48,4.251-9.48,9.478c0,0.378,0.022,0.756,0.067,1.13C11.94,10.391,4.865,2.169,4.794,2.085
+                            c-0.209-0.248-0.524-0.379-0.85-0.35C3.621,1.764,3.332,1.947,3.168,2.227c-2.22,3.795-1.314,7.391,0.208,9.906
+                            c-0.283-0.152-0.625-0.162-0.919-0.015c-0.334,0.166-0.549,0.505-0.555,0.879c-0.065,3.987,1.756,6.377,3.593,7.769
+                            c-0.135,0.055-0.258,0.14-0.359,0.251c-0.239,0.262-0.322,0.631-0.217,0.97c1.277,4.119,4.277,5.663,6.382,6.241
+                            c-2.414,1.702-5.4,2.101-7.669,2.101c-1.449,0-2.447-0.172-2.457-0.174c-0.452-0.08-0.906,0.163-1.091,0.587
+                            c-0.184,0.424-0.054,0.919,0.316,1.197c4.553,3.423,10.051,4.142,13.862,4.142c3.012,0,5.105-0.44,5.211-0.463
+                            C39.035,31.05,39.778,13.51,39.747,10.314c3.667-3.369,4.251-4.684,4.343-5.012C44.205,4.89,44.045,4.451,43.692,4.209z
+                             M38.064,9.144c-0.227,0.206-0.347,0.504-0.326,0.81c0.013,0.19,1.082,19.093-18.701,23.713c-0.019,0.004-1.99,0.415-4.776,0.415
+                            c-2.596,0-6.032-0.355-9.311-1.794c3.002-0.192,6.683-1.113,9.331-4.042c0.265-0.294,0.33-0.715,0.169-1.077
+                            c-0.161-0.361-0.522-0.594-0.917-0.594c-0.186,0-4.122-0.047-6.092-3.706c0.912,0.029,1.739-0.106,2.352-0.385
+                            c0.393-0.179,0.625-0.589,0.579-1.018c-0.046-0.429-0.364-0.78-0.786-0.871c-0.213-0.046-4.744-1.078-5.561-5.857
+                            c0.71,0.271,1.574,0.459,2.41,0.336c0.388-0.058,0.707-0.337,0.815-0.714c0.108-0.377-0.015-0.783-0.313-1.037
+                            c-0.2-0.17-4.521-3.925-2.644-8.839c2.517,2.555,9.366,8.569,17.625,8.104c0.298-0.017,0.574-0.167,0.75-0.408
+                            c0.176-0.241,0.236-0.549,0.162-0.839c-0.155-0.605-0.233-1.232-0.233-1.862c0-4.123,3.355-7.478,7.48-7.478
+                            c2.021,0,3.914,0.793,5.332,2.234c0.184,0.186,0.434,0.294,0.696,0.298l0.154,0.001c0.735,0,1.887-0.089,3.208-0.515
+                            c-0.423,0.447-0.973,0.951-1.686,1.502c-0.35,0.271-0.48,0.739-0.321,1.151c0.159,0.413,0.575,0.673,1.011,0.637
+                            c0.162-0.013,0.874-0.075,1.755-0.233C39.671,7.644,38.964,8.327,38.064,9.144z"/></g></g>
+                            <g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+                            </svg>
+                        </a></li>
+                        <li style="width:27px; height:27px; padding-top:2px;"><a id="linkdln_btn" href="#">
+                        	<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 						viewBox="0 0 42.606 42.122" style="enable-background:new 0 0 42.606 42.122;" xml:space="preserve">
+							<g id="linkedin"><g>
+                            <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M9.299,11.766H1.228c-0.552,0-1,0.448-1,1V40.98c0,0.552,0.448,1,1,1h8.072
+                                c0.552,0,1-0.448,1-1V12.766C10.299,12.213,9.852,11.766,9.299,11.766z M8.299,39.98H2.227V13.766h6.072V39.98z M31.803,11.423
+                                c-3.919,0-6.483,1.691-7.972,3.162l-0.184-1.915c-0.05-0.514-0.482-0.904-0.995-0.904h-0.02l-7.358,0.141
+                                c-0.27,0.005-0.526,0.119-0.71,0.316c-0.185,0.197-0.282,0.46-0.27,0.729c0.092,2.06,0.089,4.468,0.085,7.256l-0.001,20.914
+                                c0,0.552,0.448,1,1,1h8.072c0.552,0,1-0.448,1-1v-16.31c0-0.833,0.072-1.435,0.215-1.794c0.503-1.281,2.163-2.605,4.069-2.605
+                                c2.469,0,3.942,1.878,3.942,5.025v15.684c0,0.552,0.448,1,1,1h7.93c0.552,0,1-0.448,1-1V24.414
+                                C42.606,16.279,38.567,11.423,31.803,11.423z M40.606,40.122h-5.93V25.438c0-4.268-2.333-7.025-5.942-7.025
+                                c-2.864,0-5.193,1.996-5.928,3.869c-0.243,0.607-0.356,1.412-0.356,2.53v15.31h-6.072l0.001-19.911
+                                c0.003-2.368,0.006-4.464-0.049-6.324l5.415-0.104l0.311,3.225c0.05,0.513,0.481,0.904,0.996,0.904h0.17
+                                c0.345,0,0.665-0.177,0.848-0.47c0.59-0.943,2.891-4.019,7.734-4.019c5.595,0,8.803,4.006,8.803,10.991V40.122z M5.602,0
+                                C2.356,0,0,2.237,0,5.32c0,3.081,2.309,5.317,5.49,5.317c3.279,0,5.659-2.236,5.659-5.341C11.076,2.178,8.795,0,5.602,0z
+                                 M5.49,8.637C3.435,8.637,2,7.273,2,5.32C2,3.334,3.448,2,5.602,2c2.107,0,3.5,1.312,3.547,3.32
+                                C9.149,7.304,7.678,8.637,5.49,8.637z"/></g></g>
+                                <g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+                                </svg>
+                            </a></li>
+                    </ul> 
+                    </div>
+                </div>
+          </div>
+        </article>
+         <article class="col-md-6 halfheight bg-white-overlay text-center">
+          <div class="valign">
+                <div class="col-md-6 text-right">
+                    <h4>BIRD'S EYE-VIEW</h4>
+                    <ul class="list-unstyled mrg-20 home-submenu">
+                        <li><a href="birdseyeview.html">The Joineries</a></li>
+                        <li><a href="birdseyeview.html">The Grid</a></li>
+                        <li><a href="birdseyeview.html">The Space</a></li>
+                        <li><a href="birdseyeview.html">Services Offered</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 text-left">
+                </div>
+          </div>
+        </article>
+      </div>
+  </header>
+  <!-- end header -->
+  <section class="top-header-mob visible-xs visible-sm" style='position:relative;'>
+    <div class="demo-3">
+      <div class="column">
+        <div id="dl-menu" class="dl-menuwrapper">
+        <i class="fa fa-bars dl-trigger" style='color:#F2AF27;font-size:2em;'></i>
+        <span style="color:white;font-size:2em">Menu</span>
+        <ul class="dl-menu">
+          <li>
+            <a href="#">WORK<i class='fa fa-angle-down' style='margin-left:25px;vertical-align:top;'></i></a>
+            <ul class="dl-submenu">
+              <li><a href="dimensions.html">DIMENSIONS</a></li>
+              <li><a href="initiatives.html">INITIATIVES</a></li>
+              <li><a href="explorations.html">EXPLORATIONS</a></li>
+              <li><a href="collaborations.html">COLLABORATIONS</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="connect.html">CONNECT</a></li>
+          <li><a href="birdseyeview.html">BIRDS EYE-VIEW</a></li>
+          <li class="rowsocial">
+              <a href="#"><img src="assets/images/fbicon.png" /></a>
+              <a href="#"><img src="assets/images/twicon.png" /></a>
+              <a href="#"><img src="assets/images/liicon.png" /></a>
+          </li>
+        </ul>
+        <a href="index.html"><img src="assets/images/logo.png"></a>
+      </div><!-- /dl-menuwrapper -->
+      </div>
+    </div>
+  </section>
+  <section class="top-header visible-md visible-lg">
+  <div class="row">
+          <article class="top-header-left col-md-6 bg-black text-center">
+            <ul class="home-menu list-unstyled">
+                <li><a class="nav-work" href="dimensions.html">Work <i class="fa fa-angle-down"></i></a></li>
+                <li><a href="about.html">About</a></li>                
+                <li><a href="connect.html" class="header-active">Connect</a></li>
+                <li><a href="birdseyeview.html">Birds Eye-View</a></li>
+            </ul>
+          </article>
+          <article class="top-header-right col-md-6 bg-darkgray text-right">
+<ul class="social-icons list-unstyled"> 
+                       
+                        <li style="width:19px; height:19px; margin-right:6px;"><a id="fb_btn" href="#">
+                            <svg class='header-social' version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         viewBox="0 0 25.822 43.158" style="fill:white;enable-background:new 0 0 25.822 43.158;" xml:space="preserve">
+                            <g id="facebook">
+                                        <g><path style="fill-rule:evenodd;clip-rule:evenodd;" d="M24.822,0.007l-6.56,0.003c0,0-0.133-0.01-0.372-0.01
+                            C16.544,0,9.737,0.374,7.885,7.673c-0.029,0.081-0.652,1.908-0.662,6.157H1c-0.552,0-1,0.448-1,1v5.734c0,0.552,0.448,1,1,1h6.806
+                            v20.594c0,0.552,0.448,1,1,1h7.793c0.552,0,1-0.448,1-1V21.585h6.828c0.552,0,1-0.448,1-1v-5.755c0-0.552-0.448-1-1-1h-6.814
+                            v-2.461c0-1.639,1.04-3.39,3.96-3.39h3.249c0.552,0,1-0.448,1-1V1.007C25.822,0.455,25.375,0.007,24.822,0.007z M23.822,5.979
+                            h-2.249c-4.117,0-5.96,2.707-5.96,5.39v3.461c0,0.552,0.448,1,1,1h6.814v3.755h-6.828c-0.552,0-1,0.448-1,1v20.573H9.806V20.564
+                            c0-0.552-0.448-1-1-1H2v-3.734h6.231c0.269,0,0.526-0.108,0.714-0.3c0.188-0.192,0.291-0.451,0.286-0.72
+                            c-0.089-4.548,0.536-6.463,0.566-6.56C11.272,2.451,16.365,2,17.89,2c0.139,0,0.222,0.004,0.303,0.007h5.629V5.979z"/></g></g>
+                            <g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+                            </svg>
+                        </a></li>
+                        <li style="width:28px; height:28px; padding-top:6px; margin-right:6px;"><a  id="twit_btn" href="#">
+                            <svg class='header-social' version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 						viewBox="0 0 44.127 36.081" style="fill:white;enable-background:new 0 0 44.127 36.081;" xml:space="preserve">
+							<g id="twitter"><g>
+                            <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M43.692,4.209c-0.354-0.242-0.821-0.234-1.164,0.023
+                            c-0.237,0.177-0.59,0.334-1.002,0.471c1.357-1.683,1.377-2.808,1.357-3.085c-0.027-0.36-0.246-0.679-0.573-0.832
+                            c-0.328-0.154-0.712-0.12-1.006,0.092c-1.85,1.324-3.701,1.612-4.781,1.65C34.765,0.895,32.492,0,30.076,0
+                            c-5.227,0-9.48,4.251-9.48,9.478c0,0.378,0.022,0.756,0.067,1.13C11.94,10.391,4.865,2.169,4.794,2.085
+                            c-0.209-0.248-0.524-0.379-0.85-0.35C3.621,1.764,3.332,1.947,3.168,2.227c-2.22,3.795-1.314,7.391,0.208,9.906
+                            c-0.283-0.152-0.625-0.162-0.919-0.015c-0.334,0.166-0.549,0.505-0.555,0.879c-0.065,3.987,1.756,6.377,3.593,7.769
+                            c-0.135,0.055-0.258,0.14-0.359,0.251c-0.239,0.262-0.322,0.631-0.217,0.97c1.277,4.119,4.277,5.663,6.382,6.241
+                            c-2.414,1.702-5.4,2.101-7.669,2.101c-1.449,0-2.447-0.172-2.457-0.174c-0.452-0.08-0.906,0.163-1.091,0.587
+                            c-0.184,0.424-0.054,0.919,0.316,1.197c4.553,3.423,10.051,4.142,13.862,4.142c3.012,0,5.105-0.44,5.211-0.463
+                            C39.035,31.05,39.778,13.51,39.747,10.314c3.667-3.369,4.251-4.684,4.343-5.012C44.205,4.89,44.045,4.451,43.692,4.209z
+                             M38.064,9.144c-0.227,0.206-0.347,0.504-0.326,0.81c0.013,0.19,1.082,19.093-18.701,23.713c-0.019,0.004-1.99,0.415-4.776,0.415
+                            c-2.596,0-6.032-0.355-9.311-1.794c3.002-0.192,6.683-1.113,9.331-4.042c0.265-0.294,0.33-0.715,0.169-1.077
+                            c-0.161-0.361-0.522-0.594-0.917-0.594c-0.186,0-4.122-0.047-6.092-3.706c0.912,0.029,1.739-0.106,2.352-0.385
+                            c0.393-0.179,0.625-0.589,0.579-1.018c-0.046-0.429-0.364-0.78-0.786-0.871c-0.213-0.046-4.744-1.078-5.561-5.857
+                            c0.71,0.271,1.574,0.459,2.41,0.336c0.388-0.058,0.707-0.337,0.815-0.714c0.108-0.377-0.015-0.783-0.313-1.037
+                            c-0.2-0.17-4.521-3.925-2.644-8.839c2.517,2.555,9.366,8.569,17.625,8.104c0.298-0.017,0.574-0.167,0.75-0.408
+                            c0.176-0.241,0.236-0.549,0.162-0.839c-0.155-0.605-0.233-1.232-0.233-1.862c0-4.123,3.355-7.478,7.48-7.478
+                            c2.021,0,3.914,0.793,5.332,2.234c0.184,0.186,0.434,0.294,0.696,0.298l0.154,0.001c0.735,0,1.887-0.089,3.208-0.515
+                            c-0.423,0.447-0.973,0.951-1.686,1.502c-0.35,0.271-0.48,0.739-0.321,1.151c0.159,0.413,0.575,0.673,1.011,0.637
+                            c0.162-0.013,0.874-0.075,1.755-0.233C39.671,7.644,38.964,8.327,38.064,9.144z"/></g></g>
+                            <g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+                            </svg>
+                        </a></li>
+                        <li style="width:27px; height:27px; padding-top:2px;"><a id="linkdln_btn" href="#">
+                        	<svg class='header-social' version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 						viewBox="0 0 42.606 42.122" style="enable-background:new 0 0 42.606 42.122;" xml:space="preserve">
+							<g id="linkedin"><g>
+                            <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M9.299,11.766H1.228c-0.552,0-1,0.448-1,1V40.98c0,0.552,0.448,1,1,1h8.072
+                                c0.552,0,1-0.448,1-1V12.766C10.299,12.213,9.852,11.766,9.299,11.766z M8.299,39.98H2.227V13.766h6.072V39.98z M31.803,11.423
+                                c-3.919,0-6.483,1.691-7.972,3.162l-0.184-1.915c-0.05-0.514-0.482-0.904-0.995-0.904h-0.02l-7.358,0.141
+                                c-0.27,0.005-0.526,0.119-0.71,0.316c-0.185,0.197-0.282,0.46-0.27,0.729c0.092,2.06,0.089,4.468,0.085,7.256l-0.001,20.914
+                                c0,0.552,0.448,1,1,1h8.072c0.552,0,1-0.448,1-1v-16.31c0-0.833,0.072-1.435,0.215-1.794c0.503-1.281,2.163-2.605,4.069-2.605
+                                c2.469,0,3.942,1.878,3.942,5.025v15.684c0,0.552,0.448,1,1,1h7.93c0.552,0,1-0.448,1-1V24.414
+                                C42.606,16.279,38.567,11.423,31.803,11.423z M40.606,40.122h-5.93V25.438c0-4.268-2.333-7.025-5.942-7.025
+                                c-2.864,0-5.193,1.996-5.928,3.869c-0.243,0.607-0.356,1.412-0.356,2.53v15.31h-6.072l0.001-19.911
+                                c0.003-2.368,0.006-4.464-0.049-6.324l5.415-0.104l0.311,3.225c0.05,0.513,0.481,0.904,0.996,0.904h0.17
+                                c0.345,0,0.665-0.177,0.848-0.47c0.59-0.943,2.891-4.019,7.734-4.019c5.595,0,8.803,4.006,8.803,10.991V40.122z M5.602,0
+                                C2.356,0,0,2.237,0,5.32c0,3.081,2.309,5.317,5.49,5.317c3.279,0,5.659-2.236,5.659-5.341C11.076,2.178,8.795,0,5.602,0z
+                                 M5.49,8.637C3.435,8.637,2,7.273,2,5.32C2,3.334,3.448,2,5.602,2c2.107,0,3.5,1.312,3.547,3.32
+                                C9.149,7.304,7.678,8.637,5.49,8.637z"/></g></g>
+                                <g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+                                </svg>
+                        </a></li>
+    <li><a href="index.html">
+                    <div class="miti-logo">
+                        <img src="assets/images/logo.png" class="top-logo img-responsive" alt="Logo"/>
+                        <img src="assets/images/logo-hover.png" class="bottom-logo img-responsive" alt="Logo"/>
+                    </div>
+            </a></li>
+                    </ul>
+              
+          </article>
+  </div>
+
+<div class="toggle-menu-wrap">
+  <a id="toggle-menu" class="toggle-menu-hidden">
+    <div>
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
+    </div>
+  </a>
+    </div>
+</section>
+<div class="mob-menu-overlay"></div>
+    <div id="content" style="position:relative;">
+
+
+    <div id="dimension-menu" style="display:none;top:0px;">
+    <div class="text-right dimension-close">
+    <a href="#" class="about-close stroke-white"><!--<i class="fa fa-times-circle-o"></i>-->
+                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="0 0 22 22" style="enable-background:new 0 0 22 22;" xml:space="preserve">
+      <g><polygon style="fill-rule:evenodd;clip-rule:evenodd;" points="15.243,15.95 15.95,15.243 11.707,11 15.95,6.757 15.243,6.05 
+              11,10.293 6.757,6.05 6.05,6.757 10.293,11 6.05,15.243 6.757,15.95 11,11.707   "/>
+          <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M22,11c0-6.075-4.925-11-11-11C4.925,0,0,4.925,0,11c0,6.075,4.925,11,11,11
+              C17.075,22,22,17.075,22,11z M1,11C1,5.477,5.477,1,11,1s10,4.477,10,10s-4.477,10-10,10S1,16.523,1,11z"/></g>
+      <g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+      </svg>
+    </a>
+    </div>
+              <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-2 mrg-30">
+                                    <div class="dimentions-right-outer">
+                                        <a href="communication.html" class="relative dimentions-svg-link">
+                                            <img src="assets/site-img/communication-design.png">
+                                            <span class="absolute dimentions-svg-layer svg-layer-gold">
+                                                <img class="dimtypo" src="assets/typo/communication-design.png">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 mrg-30">
+                                    <div class="dimentions-right-outer">
+                                        <a href="education.html" id="a1" class="relative dimentions-svg-link">
+                                            <img src="assets/site-img/education-design.png">
+                                            <span class="absolute dimentions-svg-layer svg-layer-orange">
+                                                <img class="dimtypo" src="assets/typo/education-design.png">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 mrg-30">
+                                    <div class="dimentions-right-outer">
+                                        <a href="movement.html" id="a2" class="relative dimentions-svg-link">
+                                            <img src="assets/site-img/movement-design.png">
+                                            <span class="absolute dimentions-svg-layer svg-layer-white">
+                                                <img class="dimtypo" src="assets/typo/movement-design.png">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 mrg-20">
+                                    <div class="dimentions-right-outer">
+                                        <a href="social.html" id="a3" class="relative dimentions-svg-link">
+                                            <img src="assets/site-img/social-design.png">
+                                            <span class="absolute dimentions-svg-layer svg-layer-green">
+                                                <img class="dimtypo" src="assets/typo/social-design.png">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 mrg-20">
+                                    <div class="dimentions-right-outer">
+                                        <a href="business.html" id="a4" class="relative dimentions-svg-link">
+                                            <img src="assets/site-img/business-design.png">
+                                            <span class="absolute dimentions-svg-layer svg-layer-blue">
+                                                <img class="dimtypo" src="assets/typo/business-design.png">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 mrg-20">
+                                    <div class="dimentions-right-outer">
+                                        <a href="thought.html" id="a5" class="relative dimentions-svg-link">
+                                            <img src="assets/site-img/thought-design.png">
+                                            <span class="absolute dimentions-svg-layer svg-layer-gray">
+                                                <img class="dimtypo" src="assets/typo/thought-design.png">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+              </div>
+    <div class="container fullwidth-forced">
+        	<div class="row">
+            	<div class="col-xs-12 col-md-6 fullheight connect-left-bg pad-lr-0 animated fadeInDownBig hidden-sm hidden-xs">
+                    <div class="absolute about-bg-overlay min-view-height-100">
+                        <div class="connect-left-container">
+                            <ul class="connect-left">
+                                <li class="selected"><a href="#">GENERAL ENQUIRY</a></li>
+                                <li><a href="#">JOIN THE TEAM</a></li>
+                                <li><a href="#">DO BUSINESS WITH US</a></li>
+                                <li><a href="#">COLLABORATE</a></li>
+                                <li><a href="#">STAY INFORMED</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-xs-12 col-md-6 fullheight about-right-panel animated fadeInUpBig" style="overflow-y:auto;">
+                    <div>
+                        <form>
+                            <div class="general-form">
+                                <div id="dd" class="wrapper-dropdown-5" tabindex="1">
+                                    <span class='formselect'>GENERAL ENQUIRY</span><i class='fa fa-angle-down'></i>
+                                    <ul class="dropdown connect-drop" style="padding-left:3px;">
+                                        <li><a href="#">General Enquiry</a></li>
+                                        <li><a href="#">Join The Team</a></li>
+                                        <li><a href="#">Do Business With Us</a></li>
+                                        <li><a href="#">Collaborate</a></li>
+                                    </ul>
+                                </div>
+                                <section class="content" style="background:#f5f5f5;margin-top:15px;">
+                                        <span class="input input--kaede">
+                                            <input class="input__field input__field--kaede" type="text" id="input-35" />
+                                            <label class="input__label input__label--kaede" for="input-35">
+                                                <span class="input__label-content input__label-content--kaede">Name</span>
+                                            </label>
+                                        </span>
+                                        <span class="input input--kaede">
+                                            <input class="input__field input__field--kaede" type="email" id="input-36" />
+                                            <label class="input__label input__label--kaede" for="input-36">
+                                                <span class="input__label-content input__label-content--kaede">Email</span>
+                                            </label>
+                                        </span>
+                                        <span class="input input--kaede">
+                                            <input class="input__field input__field--kaede" type="number" id="input-37" />
+                                            <label class="input__label input__label--kaede" for="input-37">
+                                                <span class="input__label-content input__label-content--kaede">Phone</span>
+                                            </label>
+                                        </span>
+                                        <span class="input input--kaede">
+                                            <textarea class="input__field input__field--kaede" type="text" id="input-38" style="height:75px"></textarea>
+                                            <label class="input__label input__label--kaede" for="input-38">
+                                                <span class="input__label-content input__label-content--kaede">Message</span>
+                                            </label>
+                                        </span>
+			                    </section>
+                                <input type="submit" /> 
+                            </div>
+                        </form>
+                    </div>
+                    
+                	<div class="connect-container" style="display:block;">
+                    <!--
+                        <a href="mailto:miti@mitidesignlab.com" >Send Us A Message</a><br />
+                        Do Business With Us<br />
+                        Join The Team<br />
+                        Collaborate<br />
+                    -->
+                    <div class="mrg-top-10 stay-informed" style="margin-top:30px;">Stay Informed<br />
+                        <form>
+                            <input class="subscribe col-md-9" type="text" placeholder="Email Address" required>
+                            <input class="button col-md-3" type="button" value="SUBSCRIBE">
+                        </form>
+                    </div>
+                    <div class="mrg-top-10 verticle-center follow-share mob-mrg-20">
+                    Follow&nbsp;&nbsp;&nbsp;
+                    <ul class="social-icons list-unstyled">                        
+                        <li style="width:18px;"><a  id="fb_btn" href="#">
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         viewBox="0 0 25.822 43.158" style="enable-background:new 0 0 25.822 43.158;" xml:space="preserve">
+                            <g id="facebook">
+                                        <g><path style="fill-rule:evenodd;clip-rule:evenodd;" d="M24.822,0.007l-6.56,0.003c0,0-0.133-0.01-0.372-0.01
+                            C16.544,0,9.737,0.374,7.885,7.673c-0.029,0.081-0.652,1.908-0.662,6.157H1c-0.552,0-1,0.448-1,1v5.734c0,0.552,0.448,1,1,1h6.806
+                            v20.594c0,0.552,0.448,1,1,1h7.793c0.552,0,1-0.448,1-1V21.585h6.828c0.552,0,1-0.448,1-1v-5.755c0-0.552-0.448-1-1-1h-6.814
+                            v-2.461c0-1.639,1.04-3.39,3.96-3.39h3.249c0.552,0,1-0.448,1-1V1.007C25.822,0.455,25.375,0.007,24.822,0.007z M23.822,5.979
+                            h-2.249c-4.117,0-5.96,2.707-5.96,5.39v3.461c0,0.552,0.448,1,1,1h6.814v3.755h-6.828c-0.552,0-1,0.448-1,1v20.573H9.806V20.564
+                            c0-0.552-0.448-1-1-1H2v-3.734h6.231c0.269,0,0.526-0.108,0.714-0.3c0.188-0.192,0.291-0.451,0.286-0.72
+                            c-0.089-4.548,0.536-6.463,0.566-6.56C11.272,2.451,16.365,2,17.89,2c0.139,0,0.222,0.004,0.303,0.007h5.629V5.979z"/></g></g>
+                            <g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+                            </svg>
+                        </a></li>
+                        <li style="width:29px;"><a id="twit_btn" href="#">
+                        	<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 						viewBox="0 0 44.127 36.081" style="enable-background:new 0 0 44.127 36.081;" xml:space="preserve">
+							<g id="twitter"><g>
+                            <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M43.692,4.209c-0.354-0.242-0.821-0.234-1.164,0.023
+                            c-0.237,0.177-0.59,0.334-1.002,0.471c1.357-1.683,1.377-2.808,1.357-3.085c-0.027-0.36-0.246-0.679-0.573-0.832
+                            c-0.328-0.154-0.712-0.12-1.006,0.092c-1.85,1.324-3.701,1.612-4.781,1.65C34.765,0.895,32.492,0,30.076,0
+                            c-5.227,0-9.48,4.251-9.48,9.478c0,0.378,0.022,0.756,0.067,1.13C11.94,10.391,4.865,2.169,4.794,2.085
+                            c-0.209-0.248-0.524-0.379-0.85-0.35C3.621,1.764,3.332,1.947,3.168,2.227c-2.22,3.795-1.314,7.391,0.208,9.906
+                            c-0.283-0.152-0.625-0.162-0.919-0.015c-0.334,0.166-0.549,0.505-0.555,0.879c-0.065,3.987,1.756,6.377,3.593,7.769
+                            c-0.135,0.055-0.258,0.14-0.359,0.251c-0.239,0.262-0.322,0.631-0.217,0.97c1.277,4.119,4.277,5.663,6.382,6.241
+                            c-2.414,1.702-5.4,2.101-7.669,2.101c-1.449,0-2.447-0.172-2.457-0.174c-0.452-0.08-0.906,0.163-1.091,0.587
+                            c-0.184,0.424-0.054,0.919,0.316,1.197c4.553,3.423,10.051,4.142,13.862,4.142c3.012,0,5.105-0.44,5.211-0.463
+                            C39.035,31.05,39.778,13.51,39.747,10.314c3.667-3.369,4.251-4.684,4.343-5.012C44.205,4.89,44.045,4.451,43.692,4.209z
+                             M38.064,9.144c-0.227,0.206-0.347,0.504-0.326,0.81c0.013,0.19,1.082,19.093-18.701,23.713c-0.019,0.004-1.99,0.415-4.776,0.415
+                            c-2.596,0-6.032-0.355-9.311-1.794c3.002-0.192,6.683-1.113,9.331-4.042c0.265-0.294,0.33-0.715,0.169-1.077
+                            c-0.161-0.361-0.522-0.594-0.917-0.594c-0.186,0-4.122-0.047-6.092-3.706c0.912,0.029,1.739-0.106,2.352-0.385
+                            c0.393-0.179,0.625-0.589,0.579-1.018c-0.046-0.429-0.364-0.78-0.786-0.871c-0.213-0.046-4.744-1.078-5.561-5.857
+                            c0.71,0.271,1.574,0.459,2.41,0.336c0.388-0.058,0.707-0.337,0.815-0.714c0.108-0.377-0.015-0.783-0.313-1.037
+                            c-0.2-0.17-4.521-3.925-2.644-8.839c2.517,2.555,9.366,8.569,17.625,8.104c0.298-0.017,0.574-0.167,0.75-0.408
+                            c0.176-0.241,0.236-0.549,0.162-0.839c-0.155-0.605-0.233-1.232-0.233-1.862c0-4.123,3.355-7.478,7.48-7.478
+                            c2.021,0,3.914,0.793,5.332,2.234c0.184,0.186,0.434,0.294,0.696,0.298l0.154,0.001c0.735,0,1.887-0.089,3.208-0.515
+                            c-0.423,0.447-0.973,0.951-1.686,1.502c-0.35,0.271-0.48,0.739-0.321,1.151c0.159,0.413,0.575,0.673,1.011,0.637
+                            c0.162-0.013,0.874-0.075,1.755-0.233C39.671,7.644,38.964,8.327,38.064,9.144z"/></g></g>
+                            <g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+                            </svg>
+                        </a></li>
+                        <li style="width:26px;"><a id="linkdln_btn" href="#">
+                        	<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 						viewBox="0 0 42.606 42.122" style="enable-background:new 0 0 42.606 42.122;" xml:space="preserve">
+							<g id="linkedin"><g>
+                            <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M9.299,11.766H1.228c-0.552,0-1,0.448-1,1V40.98c0,0.552,0.448,1,1,1h8.072
+                                c0.552,0,1-0.448,1-1V12.766C10.299,12.213,9.852,11.766,9.299,11.766z M8.299,39.98H2.227V13.766h6.072V39.98z M31.803,11.423
+                                c-3.919,0-6.483,1.691-7.972,3.162l-0.184-1.915c-0.05-0.514-0.482-0.904-0.995-0.904h-0.02l-7.358,0.141
+                                c-0.27,0.005-0.526,0.119-0.71,0.316c-0.185,0.197-0.282,0.46-0.27,0.729c0.092,2.06,0.089,4.468,0.085,7.256l-0.001,20.914
+                                c0,0.552,0.448,1,1,1h8.072c0.552,0,1-0.448,1-1v-16.31c0-0.833,0.072-1.435,0.215-1.794c0.503-1.281,2.163-2.605,4.069-2.605
+                                c2.469,0,3.942,1.878,3.942,5.025v15.684c0,0.552,0.448,1,1,1h7.93c0.552,0,1-0.448,1-1V24.414
+                                C42.606,16.279,38.567,11.423,31.803,11.423z M40.606,40.122h-5.93V25.438c0-4.268-2.333-7.025-5.942-7.025
+                                c-2.864,0-5.193,1.996-5.928,3.869c-0.243,0.607-0.356,1.412-0.356,2.53v15.31h-6.072l0.001-19.911
+                                c0.003-2.368,0.006-4.464-0.049-6.324l5.415-0.104l0.311,3.225c0.05,0.513,0.481,0.904,0.996,0.904h0.17
+                                c0.345,0,0.665-0.177,0.848-0.47c0.59-0.943,2.891-4.019,7.734-4.019c5.595,0,8.803,4.006,8.803,10.991V40.122z M5.602,0
+                                C2.356,0,0,2.237,0,5.32c0,3.081,2.309,5.317,5.49,5.317c3.279,0,5.659-2.236,5.659-5.341C11.076,2.178,8.795,0,5.602,0z
+                                 M5.49,8.637C3.435,8.637,2,7.273,2,5.32C2,3.334,3.448,2,5.602,2c2.107,0,3.5,1.312,3.547,3.32
+                                C9.149,7.304,7.678,8.637,5.49,8.637z"/></g></g>
+                                <g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+                                </svg>
+                        </a></li>
+                    </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     </div>
+</section>
+    
+    <script src="assets/js/jquery-1.11.1.min.js"></script>
+    <script src="assets/js/jquery.dlmenu.js"></script>
+    <script>
+      $(function() {
+        $( '#dl-menu' ).dlmenu({
+          animationClasses : { classin : 'dl-animate-in-5', classout : 'dl-animate-out-5' }
+        });
+      });
+    </script>
+    <script type="text/javascript">
+
+        function DropDown(el) {
+            this.dd = el;
+            this.initEvents();
+        }
+        DropDown.prototype = {
+            initEvents : function() {
+                var obj = this;
+
+                obj.dd.on('click', function(event){
+                    $(this).toggleClass('active');
+                    event.stopPropagation();
+                }); 
+            }
+        }
+
+        $(function() {
+
+            var dd = new DropDown( $('#dd') );
+
+            $(document).click(function() {
+                // all dropdowns
+                $('.wrapper-dropdown-5').removeClass('active');
+            });
+
+        });
+
+    </script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/jquery.animate-enhanced.min.js"></script>
+    <script src="assets/js/hiding-nav.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/pace.min.js"></script>
+    <script src="assets/js/jquery.bxslider.min.js"></script>
+    <script src="scripts/jquery.animate-enhanced.min.js"></script>
+    <script src="assets/js/classie.js"></script>
+		<script>
+			(function() {
+				// trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
+				if (!String.prototype.trim) {
+					(function() {
+						// Make sure we trim BOM and NBSP
+						var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+						String.prototype.trim = function() {
+							return this.replace(rtrim, '');
+						};
+					})();
+				}
+
+				[].slice.call( document.querySelectorAll( 'input.input__field' ) ).forEach( function( inputEl ) {
+					// in case the input is already filled..
+					if( inputEl.value.trim() !== '' ) {
+						classie.add( inputEl.parentNode, 'input--filled' );
+					}
+
+					// events:
+					inputEl.addEventListener( 'focus', onInputFocus );
+					inputEl.addEventListener( 'blur', onInputBlur );
+				} );
+
+				function onInputFocus( ev ) {
+					classie.add( ev.target.parentNode, 'input--filled' );
+				}
+
+				function onInputBlur( ev ) {
+					if( ev.target.value.trim() === '' ) {
+						classie.remove( ev.target.parentNode, 'input--filled' );
+					}
+				}
+			})();
+		</script>
+    <script>
+        $(document).ready(function () {
+            $('#aVision').on('click', function (event) {
+                $('.about-right-outer a').removeClass('active');
+                $(this).addClass('active');
+                $('#divVision').fadeIn();
+                $('#divPrinciples').fadeOut();
+                $('#divMiti').fadeOut();
+
+                $('#visionSlider').bxSlider({
+                    controls: false
+                });
+                event.preventDefault();
+            });
+            $('#aPrinciples').on('click', function (event) {
+                $('.about-right-outer a').removeClass('active');
+                $(this).addClass('active');
+                $('#divVision').fadeOut();
+                $('#divMiti').fadeOut();
+                $('#divPrinciples').fadeIn();
+                $('#principlesSlider').bxSlider({
+                    controls: false
+                });
+                event.preventDefault();
+            });
+            $('#aMiti').on('click', function (event) {
+                $('.about-right-outer a').removeClass('active');
+                $(this).addClass('active');
+                $('#divVision').fadeOut();
+                $('#divPrinciples').fadeOut();
+                $('#divMiti').fadeIn();
+                $('#mitiSlider').bxSlider({
+                    controls: false
+                });
+                event.preventDefault();
+            });
+            $('.about-close').on('click', function (event) {
+                $(this).parent().parent().fadeOut();
+                $('.about-right-outer a').removeClass('active');
+                event.preventDefault();
+            });
+        });
+    </script>
+</body>
+</html>
