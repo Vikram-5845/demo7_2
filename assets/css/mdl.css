@@ -2,6 +2,9 @@
 .mrg-30{
        margin-bottom: :0px !important;  
 }
+.text-justify{
+    margin-bottom: :0px !important;
+}
 /* FONTS
    ============================= */
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700);
