@@ -1,3 +1,7 @@
+/*Extras*/
+.bx-wrapper{
+    margin-top:-28px !important;
+}
 /* FONTS
    ============================= */
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700);
