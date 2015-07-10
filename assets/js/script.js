@@ -44,8 +44,9 @@ $(document).ready(function(){
 	$('.plugopen').click(function(){
 		var thumbno = $(this).attr('data-thumbno');
 		$('.projectportfolio').fadeIn().attr('data-portno',thumbno);
-		$('.projectportfolio #portfolio-detail .folioimg').attr('src','assets/portfolios/'+thumbno+'/sm/'+thumbno+' (1).jpg');
+		$('.projectportfolio #portfolio-detail .folioimg').attr('src','assets/portfolios/'+thumbno+'/sm/cd_mob_big'+thumbno+'.jpg');
 	});
+    
 	$('.projectportfolio .folioleft').click(function(){
 		var thumbno = $('.projectportfolio').attr('data-portno');
 		var newthumb = parseInt(thumbno)-1;
