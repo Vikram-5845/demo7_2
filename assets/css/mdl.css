@@ -787,6 +787,12 @@ a.about-close{display:inline-block; width:24px;}
 	margin:0px auto;
 	/*overflow:auto;*/
 }
+.portfolio-container_md{
+	width:475px;
+	height:475px;
+	margin:0px auto;
+	/*overflow:auto;*/
+}
 /*GALLERY
 .portfolio-container ul{line-height:normal; font-size:small; margin:0px auto;}
 .portfolio-container .thumbnails{margin:0px auto; padding:0px;}

@@ -644,7 +644,7 @@ This applies to the space, the team, the clients, projects and ideas.
                             </li>
                             <li>
                                 <p class="text-justify">
-                                    
+                                    <div class="dlugopen3">XYZ</div>
                                 </p>
                             </li>
                         </ul>
@@ -884,6 +884,10 @@ We engage with individuals, organizations, corporates and institutes; across age
 	<script src="assets/js/jquery.bxslider.min.js"></script>
 	<script src="scripts/jquery.animate-enhanced.min.js"></script>
     <script>
+        $('.dlugopen3').on('click',function(){
+            alert("Yes its working");
+                
+	   });
         $('#aFirst').on('click', function (event) {
             $('.left-list a').parent().removeClass('active');
             $(this).parent().addClass('active');

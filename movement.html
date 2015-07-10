@@ -34,6 +34,43 @@
                 margin-bottom: 15px;
                 border-top: 1px dotted white;
         }
+.portfolio-container{
+	width:475px;
+	height:475px;
+	margin:0px auto;
+	/*overflow:auto;*/
+}
+
+.portfolio-container ul{line-height:normal; font-size:small; margin:0px auto; list-style:none; width:100%;}
+.portfolio-container .thumbnails{margin:0px; padding:0px;}
+.portfolio-container .thumbnails li{float:left; margin:0px; padding:0px; width:85px; height:85px; margin:5px 5px; /*border:1px solid #000;*/}
+.portfolio-col{  }
+.portfolio-col .thumbnail{
+    filter:alpha(opacity=0);
+     -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    position: relative; /*border: 1px solid #ddd; padding:1px;*/ border-radius: 50%; width:95%; height:95%; padding:0px; margin:0px; }
+.portfolio-col .thumbnail img{border-radius: 50%;	-webkit-border-radius: 50%; -moz-bosrder-radius: 50%; width:100%; height:100%; margin-top:0px; padding:0px;}
+
+.portfolio-col:hover .port-text-layer, .portfolio-col:focus .port-text-layer:focus {
+      opacity:1.0;
+    filter:alpha(opacity=100); 
+}
+.portfolio-container .thumbnails .portfolio-col:hover .thumbnail{
+	width:110%; height:110%;
+    border:none;
+    margin-top:-10%;
+    margin-left:-10%;
+    margin-bottom: -10%;
+	z-index:888;
+    filter:alpha(opacity=0);
+     -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
         
     </style>
     
@@ -615,6 +652,27 @@ A superlative performer, choreographer, writer, educationist and above all a Tea
                     </div>
                 </div>
                 <div class="absolute about-slider-container svg-layer-white" id="divThird" style="display: none;">
+                    <div id="portfolio-detail" style="display:none">
+            <div id="slider1_container" style="padding:15px;position: relative; top: 30%; left: 0px; width: 100%;
+                    height: 38%; background: #ffffff; margin: 0px auto; overflow: hidden; border-top: 0px solid #fff; margin-top:10px;">
+                <div class="text-right slider-close">
+                        <a href="#" class="about-close"><!--<i class="fa fa-times-circle-o"></i>-->
+                        	<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 22 22" style="enable-background:new 0 0 22 22;" xml:space="preserve">
+<g><polygon style="fill-rule:evenodd;clip-rule:evenodd;" points="15.243,15.95 15.95,15.243 11.707,11 15.95,6.757 15.243,6.05 
+		11,10.293 6.757,6.05 6.05,6.757 10.293,11 6.05,15.243 6.757,15.95 11,11.707 	"></polygon>
+	<path style="fill-rule:evenodd;clip-rule:evenodd;" d="M22,11c0-6.075-4.925-11-11-11C4.925,0,0,4.925,0,11c0,6.075,4.925,11,11,11
+		C17.075,22,22,17.075,22,11z M1,11C1,5.477,5.477,1,11,1s10,4.477,10,10s-4.477,10-10,10S1,16.523,1,11z"></path></g>
+<g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                        </a>
+                    </div>
+                    <img class="portfolio-close" src="assets/images/cancel-button.png" />
+                    <div class="col-md-9 viewimg">
+                        <i class='fa fa-angle-left folioleft'></i>
+                        <i class='fa fa-angle-right folioright'></i>
+                        <img class="folioimg" data-foliothumb='1' src="assets/images/main-1_Learners-hub.jpeg" />
+                    </div>
+            </div>
+        </div>
                     <div class="text-right slider-close">
                         <a href="#" class="about-close"><!--<i class="fa fa-times-circle-o"></i>-->
                         	<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -629,42 +687,35 @@ A superlative performer, choreographer, writer, educationist and above all a Tea
                     <div class="slider-outer-padding color-white">
                         <h3 class=" mrg-30">PEOPLE
                         </h3>
-                        <ul id="thirdSlider">
-                            <li>
-                               <div class="portfolio-outer-padding color-white">
+                        
+            <ul id="thirdSlider">
+                <li>
+                    <div class="portfolio-outer-padding color-white">
+						<div class="portfolio-container">
+  					
+                              <div class="portfolio-outer-padding color-white">
 						<div class="portfolio-container">
   								<ul class="thumbnails">
-                                    <!-- <li class="portfolio-col dplugopen" data-thumbno='1'>
-                                        <a href="portfolio-detail.html" class="thumbnail">
-                                          <img class="port-img" src="assets/images/thumbnail_Learners-hub.jpg" alt="" />
-                                          	<span class="absolute port-text-layer svg-layer-black">
-                    		              		<span class="port-layer-text text-center absolute">Learners' Hub</span>
-                            				</span>       
-                                        </a>
-                                    </li> -->
-                                    <!-- (li.portfolio-col.dplugopen[data-thumbno='$']>a.thumbnail[href="portfolio-detail.html"](img.port-img[src="assets/images/portfolio-thumbs/THUMBNAILS-$.jpg"]+span.absolute.port-text-layer.svg-layer-black>span.port-layer-text.text-center.absolute{Learner's Hub}))*42 -->
+                    
                                     <style>.roundCor{
                                             width: 23% !important;
-height: 23% !important;
+                                            height: 23% !important;
                                     }</style>
-                                    <li class="roundCor portfolio-col dplugopen" style="width: 33%;height: 33%;" data-thumbno="1"><a href="portfolio-detail.html" class="thumbnail"><img src="assets/images/portfolio-thumbs/THUMBNAILS-1.jpg" alt="" class="port-img" /><span class="absolute port-text-layer svg-layer-black"><span class="port-layer-text text-center absolute">Sutras on Dance</span></span></a></li>
-                                    <li class="roundCor portfolio-col dplugopen" data-thumbno="2"><a href="portfolio-detail.html" class="thumbnail"><img src="assets/images/portfolio-thumbs/THUMBNAILS-2.jpg" alt="" class="port-img" /><span class="absolute port-text-layer svg-layer-black"><span class="port-layer-text text-center absolute">NCPA, Nakshatra Dance Festival 2014</span></span></a></li>
-                                    <li class="roundCor portfolio-col dplugopen" data-thumbno="3"><a href="portfolio-detail.html" class="thumbnail"><img src="assets/images/portfolio-thumbs/THUMBNAILS-3.jpg" alt="" class="port-img" /><span class="absolute port-text-layer svg-layer-black"><span class="port-layer-text text-center absolute">Dwar Eco Design</span></span></a></li>
                                     
-                                    <li class="roundCor portfolio-col dplugopen" data-thumbno="6"><a href="portfolio-detail.html" class="thumbnail"><img src="assets/images/portfolio-thumbs/THUMBNAILS-6.jpg" alt="" class="port-img" /><span class="absolute port-text-layer svg-layer-black"><span class="port-layer-text text-center absolute">Clair Desai</span></span></a></li>
-                                    <li class="roundCor portfolio-col dplugopen" data-thumbno="7"><a href="portfolio-detail.html" class="thumbnail"><img src="assets/images/portfolio-thumbs/THUMBNAILS-7.jpg" alt="" class="port-img" /><span class="absolute port-text-layer svg-layer-black"><span class="port-layer-text text-center absolute">Parinee Reality</span></span></a></li>
-                                    <li class="roundCor portfolio-col dplugopen" data-thumbno="8"><a href="portfolio-detail.html" class="thumbnail"><img src="assets/images/portfolio-thumbs/THUMBNAILS-8.jpg" alt="" class="port-img" /><span class="absolute port-text-layer svg-layer-black"><span class="port-layer-text text-center absolute">Parinee Reality</span></span></a></li>
-                                    
-                                    <li class="roundCor portfolio-col dplugopen" data-thumbno="11"><a href="portfolio-detail.html" class="thumbnail"><img src="assets/images/portfolio-thumbs/THUMBNAILS-11.jpg" alt="" class="port-img" /><span class="absolute port-text-layer svg-layer-black"><span class="port-layer-text text-center absolute">UT Lab</span></span></a></li>
-                                    <li class="roundCor portfolio-col dplugopen" data-thumbno="12"><a href="portfolio-detail.html" class="thumbnail"><img src="assets/images/portfolio-thumbs/THUMBNAILS-12.jpg" alt="" class="port-img" /><span class="absolute port-text-layer svg-layer-black"><span class="port-layer-text text-center absolute">3'Oh 3</span></span></a></li>
-                                    <li class="roundCor portfolio-col dplugopen" data-thumbno="13"><a href="portfolio-detail.html" class="thumbnail"><img src="assets/images/portfolio-thumbs/THUMBNAILS-13.jpg" alt="" class="port-img" /><span class="absolute port-text-layer svg-layer-black"><span class="port-layer-text text-center absolute">Amar Muchhala</span></span></a></li>
+                                    <li class="roundCor portfolio-col dlugopen3" data-thumbno="1"><a href="portfolio-detail.html" class="thumbnail"><img src="assets/images/portfolio-thumbs/THUMBNAILS-1.jpg" alt="" class="port-img" /><span class="absolute port-text-layer svg-layer-black"><span class="port-layer-text text-center absolute">Sutras on Dance</span></span></a></li>
+                                    <li class="roundCor portfolio-col dlugopen3" data-thumbno="2"><a href="portfolio-detail.html" class="thumbnail"><img src="assets/images/portfolio-thumbs/THUMBNAILS-2.jpg" alt="" class="port-img" /><span class="absolute port-text-layer svg-layer-black"><span class="port-layer-text text-center absolute">NCPA, Nakshatra Dance Festival 2014</span></span></a></li>
+                                    <li class="roundCor portfolio-col dlugopen3" data-thumbno="3"><a href="portfolio-detail.html" class="thumbnail"><img src="assets/images/portfolio-thumbs/THUMBNAILS-3.jpg" alt="" class="port-img" /><span class="absolute port-text-layer svg-layer-black"><span class="port-layer-text text-center absolute">Dwar Eco Design</span></span></a></li>
+                                    <li class="roundCor portfolio-col dlugopen3" data-thumbno="6"><a href="portfolio-detail.html" class="thumbnail"><img src="assets/images/portfolio-thumbs/THUMBNAILS-6.jpg" alt="" class="port-img" /><span class="absolute port-text-layer svg-layer-black"><span class="port-layer-text text-center absolute">Clair Desai</span></span></a></li>
+                                    <li class="roundCor portfolio-col dlugopen3" data-thumbno="7"><a href="portfolio-detail.html" class="thumbnail"><img src="assets/images/portfolio-thumbs/THUMBNAILS-7.jpg" alt="" class="port-img" /><span class="absolute port-text-layer svg-layer-black"><span class="port-layer-text text-center absolute">Parinee Reality</span></span></a></li>
+                                    <li class="roundCor portfolio-col dlugopen3" data-thumbno="8"><a href="portfolio-detail.html" class="thumbnail"><img src="assets/images/portfolio-thumbs/THUMBNAILS-8.jpg" alt="" class="port-img" /><span class="absolute port-text-layer svg-layer-black"><span class="port-layer-text text-center absolute">Parinee Reality</span></span></a></li>
+                                    <li class="roundCor portfolio-col dlugopen3" data-thumbno="11"><a href="portfolio-detail.html" class="thumbnail"><img src="assets/images/portfolio-thumbs/THUMBNAILS-11.jpg" alt="" class="port-img" /><span class="absolute port-text-layer svg-layer-black"><span class="port-layer-text text-center absolute">UT Lab</span></span></a></li>
+                                    <li class="roundCor portfolio-col dlugopen3" data-thumbno="12"><a href="portfolio-detail.html" class="thumbnail"><img src="assets/images/portfolio-thumbs/THUMBNAILS-12.jpg" alt="" class="port-img" /><span class="absolute port-text-layer svg-layer-black"><span class="port-layer-text text-center absolute">3'Oh 3</span></span></a></li>
+                                    <li class="roundCor portfolio-col dlugopen3" data-thumbno="13"><a href="portfolio-detail.html" class="thumbnail"><img src="assets/images/portfolio-thumbs/THUMBNAILS-13.jpg" alt="" class="port-img" /><span class="absolute port-text-layer svg-layer-black"><span class="port-layer-text text-center absolute">Amar Muchhala</span></span></a></li>
+        
                           </ul>                              
                             </div>                        
                     </div>
-                            </li>
                             
-                        </ul>
-                    </div>
                 </div>
             </div>
             </div>
@@ -673,6 +724,9 @@ height: 23% !important;
      </div>
 	</div>
 	</div>
+      
+       
+      
 </section>
     <script src="assets/js/jquery-1.11.1.min.js"></script>
     <script src="assets/js/jquery.dlmenu.js"></script>
