@@ -48,7 +48,13 @@ $(document).ready(function(){
 		$('.projectportfolio').fadeIn().attr('data-portno',thumbno);
 		$('.projectportfolio #portfolio-detail .folioimg').attr('src','assets/portfolios/'+thumbno+'/sm/cd_mob_big'+thumbno+'.jpg');
 	});
-  
+    
+  $('.portfolio-close').on('click',function()
+                          {
+     
+                          $('#portfolio-detail').toggle();
+                          });
+    
     $('.dlugopen3').on('click',function(){
         
         var height_poup = $('#divThird').height() -70;
@@ -58,11 +64,11 @@ $(document).ready(function(){
        $('#portfolio-detail').css("width",widtht_poup);
         $('#portfolio-detail').css("height",height_poup);
         $('#portfolio-detail').css("top",22);
+        $('#portfolio-detail .viewimg .folioimg').attr('src','assets/gallery_crop_1.jpg');
+        $('#portfolio-detail').toggle();
          
-        
-        $('#portfolio-detail').width(widtht_poup).height(height_poup).toggle();
 		//$('.projectportfolio').fadeIn().attr('data-portno',thumbno);
-		$('.projectportfolio #portfolio-detail .folioimg').attr('src','assets/portfolios/'+thumbno+'/sm/cd_mob_big'+thumbno+'.jpg').toggle();
+		
               
 	   });
     
