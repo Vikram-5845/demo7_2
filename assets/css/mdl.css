@@ -819,7 +819,7 @@ a.about-close{display:inline-block; width:24px;}
     filter:alpha(opacity=100); 
 }
 .portfolio-container .thumbnails .portfolio-col:hover .thumbnail{
-	width:113%; height:142%;
+	width:140%; height:140%;
     border:none;
     margin-top:-20%;
     margin-left:-20%;
@@ -1234,7 +1234,13 @@ height: 73px;
 	
 }
 
-
+/******Added By Vikram****/
+.bx-wrapper>.bx-viewport>ul{
+ margin-top: 0px !important;   
+}
+.bx-wrapper>.bx-viewport>ul>li>p{
+     margin-top: 12px !important;  
+}
 @media screen and (device-aspect-ratio: 40/71) {
 /* Styles */
 .mob-mrg-20{
