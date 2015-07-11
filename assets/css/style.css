@@ -251,10 +251,11 @@ body{
     padding-left:0px;
     color: white;
 }
-.info-space>ul>li{
-    list-style: none;
+.info-space > ul > li {
+    list-style: none outside none;
     line-height: 1.4em;
-    font-size:.8em;
+    font-size: 0.9em;
+    font-style: italic;
 }
 .foliothumb{
     height:480px;
